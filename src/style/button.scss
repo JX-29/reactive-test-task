@@ -1,0 +1,26 @@
+.button {
+  cursor: pointer;
+  font-family: GOST UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+  height: 48px;
+  border-radius: 4px;
+  &_primary {
+    border: none;
+    background: #0061D9;
+    color: #FFFFFF;
+  }
+  &_ghost {
+    background: none;
+    border: 1px solid rgba(0, 80, 178, 0.5);
+    color: #0050B2;
+  }
+  &_small {
+    width: 256px;
+  }
+  &_big {
+    width: 448px;
+  }
+}

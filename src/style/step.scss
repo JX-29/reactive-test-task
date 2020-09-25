@@ -1,0 +1,70 @@
+.step {
+  padding: 28px 192px 24px 96px;
+  position: relative;
+  width: 736px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+  &_received {
+    padding: 28px 96px 40px 96px;
+  }
+  &__content {
+    margin-top: 24px;
+    &__hidden {
+      display: none;
+    }
+  }
+  &__status {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: SF Pro Display;
+    font-size: 22px;
+    color: #FFFFFF;
+    &_active {
+      background: #0061D9;
+    }
+    &_disabled {
+      background: #BCC3CA;
+    }
+    &_completed {
+      background: #1BC400;
+    }
+  }
+  &__name {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: #3B4256;
+    &_disabled {
+      color: #BCC3CA;
+    }
+  }
+  &__desc {
+    margin-bottom: 38px;
+    font-family: GOST UI;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3B4256;
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+  &__app-number {
+    font-weight: bold;
+  }
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+}

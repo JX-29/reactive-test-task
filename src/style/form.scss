@@ -1,0 +1,23 @@
+.form {
+  &__identification-title {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-family: GOST UI;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3B4256;
+  }
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__date-title {
+    font-family: GOST UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3B4256;
+  }
+}

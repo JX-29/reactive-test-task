@@ -1,0 +1,45 @@
+.header {
+  height: 88px;
+  background: #3684E2;
+  padding: 16px 0px;
+  &__wrap {
+    display: flex;
+    align-items: center;
+  }
+  &__company-name {
+    font-family: GOST UI;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 21px;
+  }
+  &__user-name {
+    font-family: GOST UI;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 15px;
+  }
+  &__logout {
+    font-family: GOST UI;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 28px;
+  }
+  &__user {
+    display: block;
+  }
+}

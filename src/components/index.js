@@ -1,0 +1,6 @@
+export {default as Header} from './Header/Header'
+export {default as Info} from './Info/Info'
+export {default as StepData} from './StepData/StepData'
+export {default as StepConsent} from './StepConsent/StepConsent'
+export {default as StepReceived} from './StepReceived/StepReceived'
+export {default as StepSelect} from './StepSelect/StepSelect'

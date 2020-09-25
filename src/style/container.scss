@@ -1,0 +1,15 @@
+.container {
+  margin: 0 auto;
+  height: 100%;
+  width: 1120px;
+  display: flex;
+  &_vertical-center {
+    align-items: center;
+  }
+  &_space-between {
+    justify-content: space-between;
+  }
+  &_column {
+    flex-direction: column;
+  }
+}

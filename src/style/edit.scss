@@ -1,0 +1,15 @@
+.edit {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 16px;
+  top: 28px;
+  cursor: pointer;
+  &__text {
+    margin-right: 6px;
+    font-family: GOST UI;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0061D9;
+  }
+}

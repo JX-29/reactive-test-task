@@ -1,0 +1,31 @@
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import "fonts";
+@import "checkbox";
+@import "container";
+@import "button";
+@import "demands";
+@import "divider";
+@import "edit";
+@import "form";
+@import "header";
+@import "info";
+@import "input";
+@import "main";
+@import "option";
+@import "radio";
+@import "step";
+@import "steps";

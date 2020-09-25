@@ -1,0 +1,36 @@
+.info {
+  padding: 64px 0 40px 0;
+  &__wrap {
+    &_big {
+      width: 736px;
+    }
+    &_small {
+      width: 256px;
+    }
+  }
+  &__title {
+    font-family: SF Pro Display;
+    font-size: 48px;
+    color: #3B4256;
+    margin-bottom: 24px;
+  }
+  &__desc {
+    font-family: GOST UI;
+    font-size: 18px;
+    color: #3B4256;
+  }
+  &__arms {
+    margin-bottom: 16px;
+  }
+  &__provided-by {
+    margin-bottom: 8px;
+    font-family: GOST UI;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  &__provider {
+    font-family: GOST UI;
+    font-size: 14px;
+    color: #3B4256;
+  }
+}

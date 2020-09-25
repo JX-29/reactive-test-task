@@ -1,0 +1,47 @@
+.input {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  &_large {
+    width: 448px;
+  }
+  &_120px {
+    width: 120px;
+  }
+  &_176px {
+    width: 176px;
+  }
+  &_160px {
+    width: 160px;
+  }
+  &_256px {
+    width: 256px;
+  }
+
+  &__name {
+    font-family: GOST UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3B4256;
+    margin-bottom: 8px;
+    &_gray {
+      color: #848E99;
+    }
+  }
+  &__field {
+    padding: 0 12px;
+    background: #FFFFFF;
+    border: 1px solid rgba(59, 66, 86, 0.5);
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 48px;
+    font-family: GOST UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3B4256;
+  }
+}
