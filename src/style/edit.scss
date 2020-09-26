@@ -5,6 +5,9 @@
   right: 16px;
   top: 28px;
   cursor: pointer;
+  &_hidden {
+    display: none;
+  }
   &__text {
     margin-right: 6px;
     font-family: GOST UI;
